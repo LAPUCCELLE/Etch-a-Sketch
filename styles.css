@@ -1,0 +1,52 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 16px;
+    background-color: #FFF0E8;
+    font-family: Satoshi;
+}
+
+.title {
+    margin-bottom: 3px;
+}
+
+.board {
+    display: grid;
+    width: min(500px, 90vw);
+    height: min(500px, 90vw);
+    background-color: blue;
+    border: 8px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 12px;
+}
+
+
+.buttons {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.content input[type="text"] {
+    width: 200px;
+    padding: 8px 10px;
+    text-align: center;
+}
+
+.content button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
